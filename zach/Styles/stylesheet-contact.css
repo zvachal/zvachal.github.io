@@ -1,0 +1,172 @@
+@font-face {
+	font-family: 'SansationLight';
+	src: url('fonts/SansationLight.ttf');
+}
+html {
+  background: url(GGB.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#headLine {
+  width: 95%;
+  height: 110px;
+  background-color: #1A2930;
+  margin-left: 10px;
+  margin-top: -30px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  animation: border 4s;
+}
+@keyframes border {
+	from {border-radius: 0px;}
+	to {border-radius: 20px;}
+}
+.name_P {
+  font-size: 40px;
+  font-family: SansationLight;
+  float: left;
+  text-indent: 20px;
+  color: #F7CE3E; /*Yellow */
+  font-weight: 900;
+}
+.home {
+	font-size: 20px;
+	font-family: SansationLight;
+	float: left;
+	text-indent: 20px;
+	color: #F7CE3E; /*Yellow */
+	font-weight: 900;
+	padding-top: 55;
+	text-decoration: none;
+	transition: color 1s
+}
+.home:hover {
+	color: #C5C1C0;
+}
+.extender {
+  margin-top: 1000;
+  width: 100;
+  height: 100;
+  position: absolute;
+}
+.contact {
+	background-color: #1A2930;
+	width: 50%;
+	height: 100px;
+	margin-left: 150px;
+	position: absolute;
+	border-radius: 15px;
+}
+#class_Container div:nth-child(1) {
+	margin-top: 150px;
+	animation: slideIn1 3s;
+	position: absolute;
+}
+#class_Container div:nth-child(2) {
+	margin-top: 275px;
+	animation: slideIn2 3s;
+}
+/*#class_Container div:nth-child(3) {
+	margin-top: 400px;
+	animation: slideIn3 3s;
+}
+#class_Container div:nth-child(4) {
+	margin-top: 525px;
+	animation: slideIn4 3s;
+} */
+@keyframes slideIn1 {
+	from {margin-left: -800;}
+	to {margin-left: 150;}
+}
+@keyframes slideIn2 {
+	from {margin-left: -900;}
+	to {margin-left: 150;}
+}
+/*@keyframes slideIn3 {
+	from {margin-left: -1000;}
+	to {margin-left: 150;}
+}
+@keyframes slideIn4 {
+	from {margin-left: -1100;}
+	to {margin-left: 150;}
+}*/
+.contact p {
+	font-size: 25;
+	font-family: SansationLight;
+	text-decoration: none;
+  color: #F7CE3E;
+  padding-left: 30px;
+	padding-top: 12px;
+  font-weight: bolder;
+}
+.contact a {
+	font-size: 25;
+	font-family: SansationLight;
+	font-weight: bolder;
+	color: #F7CE3E;
+}
+.yahoo img {
+	width: 70;
+	height: 70;
+	position: absolute;
+	margin-top: 165;
+	margin-left: 700;
+	opacity: 1.0;
+	z-index: 1;
+	animation: slideInImg1 3s;
+	transition: opacity 1s;
+}
+.yahoo img:hover {
+	opacity: .6;
+}
+.gmail img {
+	width: 70;
+	height: 70;
+	position: absolute;
+	margin-top: 290;
+	margin-left: 700;
+	opacity: 1.0;
+	z-index: 1;
+	animation: slideInImg1 3s;
+	transition: opacity 1s;
+}
+.gmail img:hover {
+	opacity: .6;
+}
+@keyframes slideInImg1 {
+	from {margin-left: -800; opacity: .0}
+	to {margin-left: 700; opacity: 1.0}
+}
+.sean {
+	position: absolute;
+	width: 300;
+	height: 300;
+	margin-left: 1000;
+	margin-top: 250;
+	border: 4px solid #0A1612;
+	transition: height 1.5s, width 1.5s, margin-left 1.5s, margin-top 1.5s;
+}
+.sean:hover {
+	height: 400;
+	width: 400;
+	margin-left: 950;
+	margin-top: 200;
+	z-index: 1;
+	border-color: #F7CE3E;
+}
+#footer {
+  align-self: center;
+  position: absolute;
+  margin-top: 1000;
+  margin-left: 37%;
+  font-family: fantasy;
+  font-size: 15px;
+  font-style: oblique;
+  color: #C5C1C0;
+}
+#footer a {
+	font-family: fantasy;
+	font-size: 15;
+	font-style: oblique;
+	color: #C5C1C0;
+}

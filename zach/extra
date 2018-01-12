@@ -1,0 +1,16 @@
+    <a  class="steam" href="http://steamcommunity.com/id/stormie4"><img src="styles/steam.png" type="image/png"></a>
+    .steam img {
+    	width: 70;
+    	height: 70;
+    	position: absolute;
+    	margin-top: 415;
+    	margin-left: 700;
+    	opacity: 1.0;
+    	z-index: 1;
+    	animation: slideInImg1 3s;
+    	transition: opacity 1s;
+    }
+    .steam img:hover {
+    	opacity: .6;
+    }
+    <p style="padding-left: 70px;">Steam identification: <a href="http://steamcommunity.com/id/stormie4">Stormie4</a></p>

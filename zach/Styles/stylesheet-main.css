@@ -1,0 +1,228 @@
+@font-face {
+	font-family: 'SansationLight';
+	src: url('fonts/SansationLight.ttf');
+}
+html {
+  background: url(GGB.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#headLine {
+  width: 95%;
+  height: 110px;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  margin-top: -30px;
+	border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+	animation: border 4s;
+}
+@keyframes border {
+	from {border-radius: 0px;}
+	to {border-radius: 20px;}
+}
+.lwhs {
+	height: 80px;
+	width: 80px;
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 635px;
+	border: 1px solid #FFFFFF
+}
+.lwhs:hover {
+	border: 1px solid #F7CE3E;
+}
+.div1 {
+	position: absolute;
+	width: 50px;
+	height: 110px;
+	margin-left: 350px;
+	transform: skew(20deg);
+	background: #C5C1C0;
+	z-index: 1;
+	animation: slide1 3s ease-out;
+}
+@keyframes slide1 {
+	from {margin-left: -100px; background: transparent;}
+	to {margin-left: 350px; background: #C5C1C0;}
+}
+.div2 {
+	position: absolute;
+	width: 50px;
+	height: 110px;
+	margin-left: 410px;
+	transform: skew(20deg);
+	background: #C5C1C0;
+	z-index: 1;
+	animation: slide2 3s ease-out;
+}
+@keyframes slide2 {
+	from {margin-left: -100px; background: transparent;}
+	to {margin-left: 410px; background: #C5C1C0;}
+}
+.div3 {
+	position: absolute;
+	width: 50px;
+	height: 110px;
+	margin-left: 470px;
+	transform: skew(20deg);
+	background: #C5C1C0;
+	z-index: 1;
+	animation: slide3 2s ease-out;
+}
+@keyframes slide3 {
+	from {margin-left: -100px; background: transparent;}
+	to {margin-left: 470px; background: #C5C1C0;}
+}
+.name_P {
+  font-size: 40px;
+  font-family: SansationLight;
+  float: left;
+  text-indent: 20px;
+  color: #F7CE3E; /*Yellow */
+  font-weight: 900;
+}
+.eMail {
+  font-size: 25px;
+  font-family: SansationLight;
+  float: right;
+  margin-top: 65px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #F7CE3E;
+	font-weight: bold;
+	transition: color 1s;
+}
+.eMail:hover {
+	color: #C5C1C0;
+}
+#about_Button {
+  width: 30%;
+  height: 100px;
+  background: #1A2930;
+  margin-left: 140px;
+  margin-top: 250px;
+  padding-top: 5px;
+  border-radius: 15px;
+  position: absolute;
+	animation: drop2 2.5s;
+}
+@keyframes drop2 {
+	from {margin-top: -110;}
+	to {margin-top: 250px;}
+}
+#about_Button a {
+  font-size: 25;
+  font-family: SansationLight;
+  text-decoration: none;
+  color: #F7CE3E;
+  padding-left: 30px;
+  font-weight: bolder;
+	transition: color 1s;
+}
+#about_Button a:hover {
+  color: #C5C1C0;
+}
+#contact_Button {
+  width: 30%;
+  height: 100px;
+  background: #1A2930;
+  margin-left: 140px;
+  margin-top: 400px;
+  border-radius: 15px;
+  position: absolute;
+	animation: drop1 2.5s;
+}
+@keyframes drop1 {
+	from {margin-top: -110;}
+	to {margin-top: 400px;}
+}
+#contact_Button a {
+	position: absolute;
+	margin-top: 5;
+	font-size: 25;
+  font-family: SansationLight;
+  text-decoration: none;
+  color: #F7CE3E;
+  padding-left: 30;
+  font-weight: bolder;
+	transition: color 1s;
+}
+#contact_Button a:hover {
+  color: #C5C1C0;
+}
+#redSox {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 200px;
+  border: 4px solid #0A1612;
+	transition: height 1.5s, width 1.5s, margin-top 1.5s, margin-left 1.5s;
+}
+#redSox:hover {
+	margin-left: 600px;
+	margin-top: 100px;
+  height: 400;
+  width: 400;
+  z-index: 1;
+	border-color: #F7CE3E;
+}
+#farm {
+  position: absolute;
+  margin-left: 915px;
+  margin-top: 200px;
+  border: 4px solid #0A1612;
+	transition: height 1.5s, width 1.5s, margin-top 1.5s, margin-left 1.5s;
+}
+#farm:hover {
+	margin-left: 815px;
+	margin-top: 100px;
+  height: 400;
+  width: 400;
+  z-index: 1;
+	border-color: #F7CE3E;
+}
+#rig {
+  position: absolute;
+  margin-left: 780px;
+  margin-top: 415px;
+  border: 4px solid #0A1612;
+	transition: height 1.5s, width 1.5s, margin-top 1.5s, margin-left 1.5s;
+}
+#rig:hover {
+	margin-left: 680px;
+	margin-top: 290px;
+  height: 400;
+  width: 500;
+  z-index: 1;
+	border-color: #F7CE3E;
+}
+#about {
+  padding-left: 20px;
+}
+.extender {
+  margin-top: 1000;
+  width: 100;
+  height: 100;
+  position: absolute;
+}
+#footer {
+  align-self: center;
+  position: absolute;
+  margin-top: 1000;
+  margin-left: 37%;
+  font-family: fantasy;
+  font-size: 15px;
+  font-style: oblique;
+  color: #C5C1C0;
+}
+p a {
+  font-family: fantasy;
+  font-size: 15;
+  font-style: oblique;
+  color: #C5C1C0;
+}
+/*   background: -webkit-linear-gradient(left, #099FBA, #09B03E); */
+/* #C5C1C0, #0A1612, #1A2930, #F7CE3E */
